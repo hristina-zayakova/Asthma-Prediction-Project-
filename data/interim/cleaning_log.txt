@@ -1,0 +1,9 @@
+DATA CLEANING LOG
+==================================================
+
+Original shape: (2392, 29)
+Cleaned shape: (2392, 28)
+Columns dropped: ['DoctorInCharge']
+Outliers handled: 0 variables
+Memory reduction: 69.2%
+Missing values: 0

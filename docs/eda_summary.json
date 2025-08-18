@@ -1,0 +1,35 @@
+{
+  "high_importance_features": [],
+  "medium_importance_features": [
+    "ExerciseInduced"
+  ],
+  "low_importance_features": [
+    "ChestTightness",
+    "LungFunctionFVC",
+    "DustExposure",
+    "Wheezing",
+    "LungFunctionFEV1",
+    "Coughing",
+    "GastroesophagealReflux",
+    "NighttimeSymptoms",
+    "SleepQuality",
+    "HayFever",
+    "Smoking",
+    "Age",
+    "PollenExposure",
+    "ShortnessOfBreath",
+    "BMI",
+    "PetAllergy",
+    "Eczema",
+    "PhysicalActivity",
+    "PollutionExposure",
+    "DietQuality",
+    "Gender",
+    "HistoryOfAllergies",
+    "FamilyHistoryAsthma"
+  ],
+  "target_column": "Diagnosis",
+  "class_imbalance_ratio": 18.29032258064516,
+  "total_features_analyzed": 24,
+  "significant_features_count": 1
+}

@@ -1,0 +1,38 @@
+{
+  "test_performance": {
+    "random_forest": {
+      "auc": 0.974977973568282,
+      "precision": 0.4883720930232558,
+      "recall": 0.84,
+      "f1": 0.6176470588235294
+    },
+    "xgboost": {
+      "auc": 0.9786784140969164,
+      "precision": 0.5277777777777778,
+      "recall": 0.76,
+      "f1": 0.6229508196721312
+    },
+    "logistic_regression": {
+      "auc": 0.973568281938326,
+      "precision": 0.3472222222222222,
+      "recall": 1.0,
+      "f1": 0.5154639175257731
+    }
+  },
+  "best_model": "XGBoost",
+  "best_auc": 0.9786784140969164,
+  "top_features": [
+    "PatientID",
+    "exercise_respiratory_interaction",
+    "ExerciseInduced",
+    "EducationLevel",
+    "ChestTightness",
+    "Gender",
+    "NighttimeSymptoms",
+    "respiratory_score",
+    "LungFunctionFEV1",
+    "BMI"
+  ],
+  "engineered_features_in_top10": 1,
+  "data_source": "corrected_feature_engineering"
+}

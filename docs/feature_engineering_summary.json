@@ -1,0 +1,53 @@
+{
+  "feature_columns": [
+    "risk_score",
+    "environmental_score",
+    "exercise_respiratory_interaction",
+    "age_lung_interaction",
+    "ExerciseInduced",
+    "respiratory_score",
+    "allergy_environment_interaction",
+    "family_smoking_interaction",
+    "allergy_score"
+  ],
+  "target_column": "Diagnosis",
+  "n_features": 9,
+  "n_samples_train_original": 1913,
+  "n_samples_train_final": 3628,
+  "n_samples_test": 479,
+  "smote_applied": true,
+  "features_scaled": [
+    "risk_score",
+    "environmental_score",
+    "exercise_respiratory_interaction",
+    "age_lung_interaction",
+    "respiratory_score",
+    "allergy_environment_interaction",
+    "family_smoking_interaction",
+    "allergy_score"
+  ],
+  "features_not_scaled": [
+    "ExerciseInduced"
+  ],
+  "composite_features_created": [
+    "respiratory_score",
+    "allergy_score",
+    "environmental_score",
+    "risk_score",
+    "family_smoking_interaction",
+    "exercise_respiratory_interaction",
+    "age_lung_interaction",
+    "allergy_environment_interaction"
+  ],
+  "interaction_features_created": [
+    "family_smoking_interaction",
+    "exercise_respiratory_interaction",
+    "age_lung_interaction",
+    "allergy_environment_interaction"
+  ],
+  "encoding_methods": {
+    "binary_categorical": "kept_as_0_1",
+    "ordinal_categorical": "kept_as_integers",
+    "continuous": "standard_scaling"
+  }
+}
