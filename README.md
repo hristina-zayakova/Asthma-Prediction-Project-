@@ -14,8 +14,6 @@ This project provides a complete, production-ready data processing pipeline that
 - **Mixed data types** (numeric, categorical, binary)
 - **Reproducible and auditable processing**
 
-## 🚀 Quick Start
-
 ### Installation
 ```bash
 # Clone the repository
